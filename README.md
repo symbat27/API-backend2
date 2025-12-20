@@ -16,19 +16,19 @@ Then created files and packges: public (for files index.html, style.css and scri
 server.js - Server-side code to handle API requests, package.json - Project metadata and dependencies. 
 
 API Usage
-1. Random User API: https://randomuser.me/api/
+1. Random User API:  https://randomuser.me/api/
 Data Retrieved:
 Name (first and last), gender, age, location (city, street, country), profile picture
 
-2. Countrylayer API: http://api.countrylayer.com/v2/name/{country}
+2. Countrylayer API: https://manage.countrylayer.com/signup/free
 Data Retrieved:
 Country name, capital city, official languages, currency (name and code)
 
-3. Exchange Rate API: https://v6.exchangerate-api.com/v6/{api_key}/latest/{currency_code}
+3. Exchange Rate API: https://www.exchangerate-api.com/
 Data Retrieved:
 Conversion rates for USD and KZT based on the user's local currency
 
-4. News API: https://newsapi.org/v2/everything
+4. News API: https://newsapi.org/
 Data Retrieved:
 News headlines containing the user's country name, article title, image, short description
 
@@ -37,4 +37,5 @@ The user interface has been designed to be simple, clean, and responsive. It ada
 The application includes robust error handling. If any external API fails to respond or returns incomplete data, the application gracefully handles these errors by providing fallback values or displaying a message to the user.
 
 Conclusion
+
 This project demonstrates how multiple APIs can be integrated into a single application to provide dynamic, real-time data for users. By leveraging APIs for random user generation, country information, exchange rates, and news, the project offers a rich set of features with a clean and responsive interface. The use of server-side data fetching ensures that API keys are securely handled, while clear design decisions make the application both functional and easy to use.
