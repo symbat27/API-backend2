@@ -12,7 +12,7 @@ Setup Instructions
 To initialize project and create json used: npm init -y
 To install dependencies: npm install express axios dotenv
 
-Then created files and packges: public (for files index.html, style.css and script.js), .env - Environment variables(API keys), 
+Then created files and packges: public (for files style.css and script.js), views(for index.html) .env - Environment variables(API keys), 
 server.js - Server-side code to handle API requests, package.json - Project metadata and dependencies. 
 
 API Usage
@@ -39,3 +39,4 @@ The application includes robust error handling. If any external API fails to res
 Conclusion
 
 This project demonstrates how multiple APIs can be integrated into a single application to provide dynamic, real-time data for users. By leveraging APIs for random user generation, country information, exchange rates, and news, the project offers a rich set of features with a clean and responsive interface. The use of server-side data fetching ensures that API keys are securely handled, while clear design decisions make the application both functional and easy to use.
+
